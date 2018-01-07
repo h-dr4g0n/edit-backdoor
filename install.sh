@@ -1,4 +1,5 @@
 #!/bin/bash
+./msfinstall
 sudo apt-get install git
 git config --global user.name "h-dr4g0n"
 git config --global user.email "dragonmatrix2506@gmail.com"
@@ -12,3 +13,6 @@ sudo -E sh -c 'wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_
 sudo chmod +r /usr/local/bin/apktool.jar
 sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool'
 sudo chmod +x /usr/local/bin/apktool
+#apktool
+apktool d -f -o shopee com.shopee.vn-83.apk
+apktool d -f -o Duolingo Duolingo.apk
