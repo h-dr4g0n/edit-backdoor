@@ -18,3 +18,4 @@ sudo chmod +x /usr/local/bin/apktool
 #apktool d -f -o Duolingo Duolingo.apk
 apt-get install lib32stdc++6 lib32ncurses5 lib32z1
 Y
+git clone https://gist.github.com/a62d106b55562cc1ab88.git
