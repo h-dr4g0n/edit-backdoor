@@ -14,5 +14,7 @@ sudo chmod +r /usr/local/bin/apktool.jar
 sudo sh -c 'wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool'
 sudo chmod +x /usr/local/bin/apktool
 #apktool
-apktool d -f -o shopee com.shopee.vn-83.apk
-apktool d -f -o Duolingo Duolingo.apk
+#apktool d -f -o shopee com.shopee.vn-83.apk
+#apktool d -f -o Duolingo Duolingo.apk
+apt-get install lib32stdc++6 lib32ncurses5 lib32z1
+Y
